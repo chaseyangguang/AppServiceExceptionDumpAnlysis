@@ -6,7 +6,7 @@
     "siteName": "[concat(toLower(variables('hostingPlanName')), uniqueString(resourceGroup().id))]",
     "sku": "s1",
     "workerSize": "0",
-    "repoURL": "https://github.com/chaseyangguang/BasicMemoryDumpAnalysisLabs.git",
+    "repoURL": "https://github.com/chaseyangguang/AppServiceExceptionDumpAnlysis.git",
     "branch": "main"
   },
   "resources": [
